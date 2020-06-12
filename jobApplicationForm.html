@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jobApplication</title>
+</head>
+<body>
+    <form name="input" action="html_form_action.asp" method="post"></form>
+        <div>
+            Account Infomation
+        </div>
+        <div>
+            Email: <input type="text" name="Email">
+            <div>
+                Password: <input type="password" name="pwd">
+            </div>
+            <div>
+                Repeat password: <input type="password" name="pwd">
+            </div>
+        </div>
+
+        <div>
+            Personal Infomation
+            <div>
+                First name: <input type="text" name="firstname"><br> Last name: <input type="text" name="lastname">
+            </div>
+            <div>
+                gender: <select name="gender"> <option value="male">male</option> <option value="female">female</option> </select>
+            </div>
+            <div>
+                Address: <textarea name="address"></textarea>
+            </div>
+            Are you legally able to be employed in this country? 
+            <div>
+                <input type="radio" name="answer" value="yes"> Yes<br> <input type="radio" name="answer" value="no"> No
+            </div>
+            What type of position are you seeking? (check all that apply)
+            <div>
+                <input type="checkbox" name="position" value="Parttime">Part time<br> <input type="checkbox" name="position" value="full time">full time
+            </div>
+
+            <input type="submit" value="Submit form">
+        </div>
+
+    </form>
+</body>
+</html>
